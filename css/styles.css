@@ -4,11 +4,14 @@
     margin: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
 .container {
     width: 800px;
     height: 100vh;
     margin: 0 auto;
-    border: 1px solid black;
     padding: 50px 0;
     display: flex;
     justify-content: space-between;
