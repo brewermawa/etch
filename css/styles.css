@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons  img {
+    width: 75px;
+    height: auto;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#reset {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.range {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.canvas {
+    width: 602px;
+    height: 602px;
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid lightgray;
+    border-radius: 20%;
+}
